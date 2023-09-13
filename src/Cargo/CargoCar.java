@@ -8,7 +8,7 @@ public class CargoCar {
     public void cargo(boolean isCargo) {
 
         if (this.isCargo == isCargo) {
-            System.out.println("Груз и так уже "+(isCargo ? "в машине" : "снят с машины")+".");
+            System.out.println("Груз  "+(isCargo ? "в машине" : "снят с машины")+".");
             return;
         }
 
