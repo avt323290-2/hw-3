@@ -3,9 +3,17 @@ import Cars.Car;
 import FogLights.IFogLightsCar;
 import StreetCleaner.IStreetCleanerCar;
 import java.util.Scanner;
-
+/**
+ * Класс Core представляет собой основную логику приложения для управления
+ * различными функциями автомобиля на основе введенных команд пользователя.
+ */
 public class Core {
-
+    /**
+     * Метод run выполняет основную логику приложения, обеспечивая взаимодействие
+     * пользователя с автомобилем через команды.
+     *
+     * @param myCar Объект класса Car, представляющий управляемый автомобиль.
+     */
     static void run(Car myCar) {
 
         System.out.println("=============== Инструкция ===============\n" +
